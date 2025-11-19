@@ -2,6 +2,9 @@
 /*              Buttons                          */
 /* ============================================= */
 
+@use "sass:color";
+@use '../utilities/variables' as *;
+
 .btn {
   margin-top: 15px;
   width: 100%;
@@ -26,34 +29,34 @@
 .default {
   background-color: $button-default;
   &:hover {
-    background: lighten($button-default, 15%);
+    background: color.adjust($button-default, $lightness: 15%);
   }
 }
 
 .error {
   background-color: $button-error;
   &:hover {
-    background: lighten($button-error, 15%);
+    background: color.adjust($button-error, $lightness: 15%);
   }
 }
 
 .info {
   background-color: $button-info;
   &:hover {
-    background: lighten($button-info, 15%);
+    background: color.adjust($button-info, $lightness: 15%);
   }
 }
 
 .success {
   background-color: $button-success;
   &:hover {
-    background: lighten($button-success, 15%);
+    background: color.adjust($button-success, $lightness: 15%);
   }
 }
 
 .warning {
   background-color: $button-warning;
   &:hover {
-    background: lighten($button-warning, 15%);
+    background: color.adjust($button-warning, $lightness: 15%);
   }
 }

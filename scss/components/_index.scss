@@ -2,9 +2,9 @@
 /* Components Imports */
 /* ============================================= */
 
-@import 'buttons';
-@import 'forms';
-@import 'navigation';
-@import 'images';
-@import 'grid';
-@import 'media-queries';
+@forward 'buttons';
+@forward 'forms';
+@forward 'navigation';
+@forward 'images';
+@forward 'grid';
+@forward 'media-queries';
