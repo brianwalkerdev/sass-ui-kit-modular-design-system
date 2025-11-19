@@ -1,7 +1,7 @@
 {
-  "name": "modern-web-page-sass",
+  "name": "sass-ui-kit-modular-design-system",
   "version": "1.0.0",
-  "description": "A modern, professional UI style guide built with SASS demonstrating modular CSS architecture, component-based styling, and responsive design patterns. Perfect for showcasing clean web design and SASS best practices.",
+  "description": "A modern, professional UI component library built with SASS featuring modular design patterns, responsive grid system, and clean CSS architecture. Demonstrates best practices in CSS preprocessing and component-based design.",
   "main": "index.html",
   "scripts": {
     "build": "sass scss/styles.scss css/styles.css --style compressed",
@@ -11,19 +11,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brianwalkerdev/modern-web-page-sass.git"
+    "url": "git+https://github.com/brianwalkerdev/sass-ui-kit-modular-design-system.git"
   },
   "keywords": [
     "sass",
     "scss",
     "css",
     "ui-kit",
+    "component-library",
+    "design-system",
+    "modular-design",
     "style-guide",
     "responsive-design",
     "web-design",
     "frontend",
-    "component-library",
-    "modular-css",
+    "css-architecture",
     "brian-walker",
     "portfolio"
   ],
@@ -34,9 +36,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/brianwalkerdev/modern-web-page-sass/issues"
+    "url": "https://github.com/brianwalkerdev/sass-ui-kit-modular-design-system/issues"
   },
-  "homepage": "https://brianwalkerdev.github.io/modern-web-page-sass",
+  "homepage": "https://brianwalkerdev.github.io/sass-ui-kit-modular-design-system",
   "devDependencies": {
     "sass": "^1.94.0"
   }
