@@ -2,7 +2,7 @@
 
 A modern, responsive UI component library built with SASS featuring modular design patterns, a flexible grid system, and clean CSS architecture.
 
-**[View Live Demo →](https://brianwalkerdev.github.io/sass-ui-kit-modular-design-system)**
+**[View Live Demo →](https://projects.brianwalker.dev/sass-ui-kit-modular-design-system)**
 
 ![Circles UI Kit Preview](images/thumbnail.png)
 
